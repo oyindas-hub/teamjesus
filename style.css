@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Anton', sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-color: #eaf0ff;
+}
+
+.team-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.scripture-text {
+  font-size: 2rem;
+  max-width: 90%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
